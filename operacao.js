@@ -22,7 +22,9 @@ for (cliente of clientes) {
 
         let { status, message } = enviarEmail(destino, assunto, corpo)
 
-        console.log('[', message, ']')
-        console.log('[ Status:', status, ']\n')
+        // console.log('[', message, ']')
+        // console.log('[ Status:', status, ']\n')
+        console.log('SITUAÇÃO DO EMAIL:')
+        console.log('[', status, ']', message)
     }
 }
